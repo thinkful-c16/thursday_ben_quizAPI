@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Vehicle Quiz</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="container">
+        <!-- Welcome to Quiz View -->
+        <div>
+            <h1>Welcome to the multiple choice vehicle quiz!</h1>
+            <h3>This quiz will test your knowledge of vehicles.</h3>
+            <p>Choose how many questions and what difficulty level you would like, then click Begin!</p>
+        </div>
+
+      <div class = "dropdowns">
+        <select id = "user-questionCount">
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+        </select>
+        <!-- ***** -->
+        <select id = "user-difficulty">
+          <option value="easy">easy</option>
+          <option value="medium">medium</option>
+          <option value="hard">hard</option>
+        </select>
+      </div>
+
+      <div class = "button">
+        <button id= "start-button">Begin!</button>
+      </div>
+
+    </main>
+</body>
+
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+</html>
